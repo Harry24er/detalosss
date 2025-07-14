@@ -1,0 +1,157 @@
+    
+
+    .seccion { display: none; }
+    .seccion.activa { display: block; }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      flex: 1;
+      text-align: center;
+    }
+
+    .acciones {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex: 1;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .acciones input[type="text"] {
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1px solid #aaa;
+    }
+
+    .menu {
+      list-style: none;
+      display: flex;
+      gap: 40px;
+      padding: 0;
+      margin: 0;
+      flex: 2;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .menu li a {
+      text-decoration: none;
+      color: inherit;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .menu .activo {
+      font-weight: bold;
+      color: red;
+    }
+
+    .formulario-contacto {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-top: 30px;
+    }
+
+    .columna {
+      flex: 1;
+      min-width: 300px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .formulario-contacto input,
+    .formulario-contacto textarea {
+      padding: 12px 15px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-family: inherit;
+      font-size: 16px;
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .condiciones {
+      font-size: 0.95em;
+      color: #555;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    footer .icons {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    footer img {
+      width: 32px;
+      height: 32px;
+    }
+
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 20px;
+      background-color: #fff0f5;
+      gap: 40px;
+    }
+
+    .intro-texto {
+      flex: 1;
+      min-width: 280px;
+      max-width: 600px;
+    }
+
+    .intro-texto h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      color: #d63384;
+    }
+
+    .intro-texto h2 {
+      font-size: 24px;
+      color: #6c757d;
+      margin-bottom: 20px;
+    }
+
+    .intro-texto p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .intro-imagen {
+      flex: 1;
+      min-width: 280px;
+      text-align: center;
+    }
+
+    .intro-imagen img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+ 
+
+
